@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="dll_add_multiply">
+      <HintPath>..\dll_add_multiply\bin\Debug\netcoreapp3.1\dll_add_multiply.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
