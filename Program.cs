@@ -10,7 +10,9 @@ namespace JenkinsApp
             Console.WriteLine("Welcome to Jenkins");
             Console.ReadLine();
             Add file = new Add();
-            Console.WriteLine(file.Add_(4,5));
+            int ans = file.Add_(5, 6);
+
+            Console.WriteLine(ans);
             
             
 
