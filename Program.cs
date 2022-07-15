@@ -1,23 +1,18 @@
 ﻿using System;
-using dll_add_multiply;
+using Math;
+
 namespace JenkinsApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Welcome to Jenkins");
+            MyMath math = new MyMath();
+
+            Console.WriteLine(math.Add(10, 20));
+            Console.WriteLine(math.Multiply(10, 20));
+
             Console.ReadLine();
-            Add file = new Add();
-            Console.WriteLine(file.Add_(4,5));
-            
-            
-
-
-            
-
-            
         }
     }
 }
